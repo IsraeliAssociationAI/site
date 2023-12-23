@@ -43,7 +43,6 @@
         var priceTotal = quantity * selectedItemPrice + parseFloat(shipping) + tax;
         priceTotal = Math.round(priceTotal * 100) / 100;
         var itemTotalValue = Math.round((selectedItemPrice * quantity) * 100) / 100;
-
         return actions.order.create({
           purchase_units: [{
             description: orderDescription,
