@@ -2,3 +2,4 @@
 
 Welcome
 
+{% include paypal.html %}
